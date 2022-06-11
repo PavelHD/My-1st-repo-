@@ -19,7 +19,7 @@ body {
 
 }
 
-section {
+.half-width {
     display: flex;
     padding-left: 100px;
 }
@@ -28,6 +28,7 @@ h1 {
     font-size: 45px;
     padding-top: 50px;
 }
+
 
 .style {
     color: rgb(255, 30, 0);
@@ -51,8 +52,43 @@ p {
     background-repeat: no-repeat;
 }
 
-.dream {
+.dream-queen {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.shadow {
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    border-radius: 10px;
+    border-left: 20px;
+    box-shadow: 10px 10px 40px rgb(63, 59, 59);
+}
+
+.Award-nisho {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#border-1 {
+    border-image: linear-gradient(rgba(255, 72, 0, 0.815), rgb(255, 17, 0)) 27;
+    border-left: 7px solid;
+    border-image-slice: 1;
+    padding-right: 10px;
+}
+
+#border-2 {
+    border-image: linear-gradient(rgb(0, 17, 255), rgb(0, 255, 255)) 27;
+    border-left: 7px solid;
+    border-image-slice: 1;
+    padding-right: 10px;
+}
+
+footer {
+    text-align: center;
+    padding-top: 100px;
 }
